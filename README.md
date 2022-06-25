@@ -5,5 +5,5 @@ cd ./backend
 dotnet run
 
 #running frontend -> 
-cd ./myreactapp
+cd ./frontend
 npm start
