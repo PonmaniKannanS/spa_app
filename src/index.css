@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+header {
+  background-color: #3498eb;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+input:focus,
+select:focus {
+  box-shadow: none !important;
+  border: 2px solid lightblue;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.myNavColor {
+  background-color: #1098ad !important;
+}
+
+.svgIconNav {
+  width: 18px !important;
+}
+
+.mar {
+  margin: 10px;
+}
+
+.nav-link.active {
+  border-bottom: 1px solid #f1f3f5 !important;
+}
+
+.header {
+  background-color: #f1f3f5 !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+
+  border: #333 2px solid;
+  position: fixed;
+  top: 40%;
+  left: 48%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
 }
